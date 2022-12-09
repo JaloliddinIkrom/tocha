@@ -1,4 +1,5 @@
-$('.js-corusel').slick({
+$('.js-corusel').slick({ 
+  dots:true,
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1,
@@ -16,14 +17,16 @@ $('.js-corusel').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -32,7 +35,8 @@ $('.js-corusel').slick({
   ]
 });
  
-$('.carusel-aside-list').slick({
+$('.carusel-aside-list').slick({ 
+  dots: true,
   infinite: true,
   slidesToShow: 2.5,
   slidesToScroll: 1, 
@@ -50,14 +54,16 @@ $('.carusel-aside-list').slick({
       breakpoint: 721,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -68,7 +74,8 @@ $('.carusel-aside-list').slick({
 }); 
 
 
-$('.js-carusel-contacts-res').slick({
+$('.js-carusel-contacts-res').slick({ 
+  dots: true,
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1, 
@@ -86,14 +93,16 @@ $('.js-carusel-contacts-res').slick({
       breakpoint: 721,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots:true
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1, 
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -104,7 +113,8 @@ $('.js-carusel-contacts-res').slick({
 });
        
 
-$('.js-contacts-inner-carusel').slick({
+$('.js-contacts-inner-carusel').slick({ 
+  dots: true,
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1, 
@@ -122,14 +132,16 @@ $('.js-contacts-inner-carusel').slick({
       breakpoint: 721,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:

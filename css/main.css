@@ -1724,6 +1724,7 @@ color: #D9DBE1;
     .header__list__link-activ{ 
       margin-right: 0px;
       padding: 10px 77px; 
+      margin-bottom: 40px; 
      
     }  
     .header__list-item{ 
@@ -1880,7 +1881,15 @@ color: #D9DBE1;
     margin-top: 0px;
   } 
   .js-contacts-inner-carusel{ 
-    padding: 30px 0;
+     
+    margin: 0 auto; 
+    padding: 30px 0; 
+    text-align: center;
+  } 
+  .contacts__inner-imges{ 
+
+    margin: 0 auto; 
+    text-align: center;
   }
  
   .contacts__inner-bg{ 
