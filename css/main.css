@@ -1724,13 +1724,14 @@ color: #D9DBE1;
     .header__list__link-activ{ 
       margin-right: 0px;
       padding: 10px 77px; 
-      margin-bottom: 40px; 
+   
      
     }  
     .header__list-item{ 
       width: 100%; 
       max-width: 177px; 
-      margin: 0 auto;
+      margin: 0 auto; 
+      margin-bottom: 10px;
     }
     .header__list__link{ 
       
